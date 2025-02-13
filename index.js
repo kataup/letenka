@@ -51,6 +51,18 @@ const flight = {
   quality: 66.66659,
 };
 
+const baglimit = {
+    hand_width: 20,
+    hand_height: 40,
+    hand_length: 55,
+    hand_weight: 10,
+    hold_width: 81,
+    hold_height: 119,
+    hold_length: 119,
+    hold_dimensions_sum: 319,
+    hold_weight: 20,
+  }
+
 const handBagLimit = {
   hand_width: 20,
   hand_height: 40,
