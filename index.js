@@ -60,13 +60,6 @@ const handBagLimit = {
 };
 const secondBag = Math.round(flight.bags_price[2] * flight.conversion.EUR) + 'Kč';
 
-/* document.body.innerHTML += '<h1> Let PRG - BCA</h1>';
-document.body.innerHTML += '<h2> Maximální povolené rozměry příručního zavazadla:</h2>';
-document.body.innerHTML += '<p> Šířka: ' + handBagLimit.hand_width + 'cm' + '</p>';
-document.body.innerHTML += '<p> Výška: ' + handBagLimit.hand_height + ' ' + 'cm' + '</p>';
-document.body.innerHTML += '<p> Délka: ' + handBagLimit.hand_length + ' ' + 'cm' + '</p>';
-document.body.innerHTML += '<p> Váha: ' + handBagLimit.hand_weight + ' ' + 'kg' + '</p>';
-document.body.innerHTML += '<p> Cena druhého zavazadla: ' + Math.round(flight.bags_price[2]*flight.conversion.EUR) + 'Kč' + '</p>'; */
 
 document.body.innerHTML += `
     <h1>Let PRG - BCN</h1>
